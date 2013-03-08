@@ -5,7 +5,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.junit.internal.runners.statements.Fail;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
 
 /**
  * @author Bernardo Tuso
@@ -14,6 +15,10 @@ import org.junit.internal.runners.statements.Fail;
  * 				 http://javarevisited.blogspot.com.ar/2012/06/junit4-annotations-test-examples-and.html
  *
  */
+@RunWith(Suite.class)//Runs a bunch of test classes together
+@Suite.SuiteClasses({
+        extraClass.class//Runs extraClass
+})
 public class tester{
 
 	private int a=1,b=1,c=20;
