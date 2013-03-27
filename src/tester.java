@@ -11,7 +11,7 @@ import org.junit.runners.Suite;
 /**
  * @author Bernardo Tuso
  *
- * Useful links: www.vogella.com/articles/JUnit/article.htmlivan
+ * Useful links: www.vogella.com/articles/JUnit/article.html
  * 				 http://javarevisited.blogspot.com.ar/2012/06/junit4-annotations-test-examples-and.html
  *
  */
